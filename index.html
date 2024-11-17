@@ -1,0 +1,191 @@
+<!--Site utilizando bootstrap-->
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Meu site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+     <!--Menu-->
+    <nav class="navbar col-12 position-fixed navbar-white bg-white" style="z-index: 999;">
+        <div class="container-fluid col-11 m-auto">
+          <a class="navbar-brand" href="#">Menu</a>
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Compras<i class="fa-solid fa-cart-shopping"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Favoritos<i class="fa-solid fa-heart"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Encomendas <i class="fa-solid fa-truck-fast"></i></a>
+            </li>
+          </ul>
+          <!--Navbar-->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Ínicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Produtos">Produtos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#Contato">Contato</a>
+                      </li>
+                  </div>
+                </div>
+              </nav>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"> <h1 class="fw-bolder">Produtos para cozinha</h1></a>
+              </li>
+          </div>
+        </div>
+      </nav>
+      <br><br><br>
+      <!--Carousel-->
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+      <h2 class="text-center">Harmonia do lar</h2>
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="/carrossel/DALL·E 2024-10-26 18.25.07 - Three high-quality, modern images for an e-commerce website carousel, themed around home appliances. The first image features sleek kitchen appliances.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Grande variedade de produtos e utensílios para o lar</h5>
+              <p>Aqui você encontra diversidade em produtos para decorar todos os comodos da sua ilustre casa</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="/carrossel/DALL·E 2024-10-26 18.25.15 - A bright, modern image for an e-commerce website carousel showcasing small kitchen appliances, such as a sleek blender, toaster, and kettle arranged o.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Sua casa merece o melhor! Venha conferir nossas promoções em eletrodomésticos e leve mais conforto e praticidade para o seu dia a dia!</h5>
+              <p>De cozinhas a lavanderias, temos tudo para facilitar sua vida! Aproveite nossos preços incríveis em eletrodomésticos</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="/carrossel/DALL·E 2024-10-26 18.25.24 - A modern, clean image for an e-commerce website carousel showcasing laundry appliances, such as a front-loading washing machine and dryer in a stylish.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Renove sua casa com a qualidade e tecnologia que você merece! Eletrodomésticos modernos, ofertas imperdíveis</h5>
+              <p>Transforme sua casa com os melhores equipamentos! Qualidade, inovação e preços que cabem no seu bolso</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div>
+      <h2 class="text-center">Produtos</h2>
+    </div>
+      <div id="Produtos" class="row row-cols-1 row-cols-md-3 g-4 col-11 m-auto">
+        <div class="col">
+            <h2 class="text-center"></h2>
+          <div class="card h-100">
+            <img src="/Meu site/img.geladeiras/fridge-7074774_1280.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Geladeiras Modernas</h5>
+              <p class="card-text">Explore nossa seleção de geladeiras com tecnologia avançada, design elegante e máxima eficiência. Seja para uma família grande ou para pequenos espaços, temos uma geladeira ideal para suas necessidades, oferecendo desde modelos Frost Free a compactos e duplex, todos foc
+                <br><p class="fw-bolder">Principais caracteristicas</p>
+                <br>Tecnologia Frost Free e Inversor :
+               <br> Diversos Tamanhos e Capacidades: O
+               <br> Organização Inteligente: Pr
+                <br>Design Moderno: Ac
+                <br>Eficiência Energética A+ e A++:Consu
+                <br>Ofertas e Promoções Exclusivas : Pacote
+                
+                Invista em uma geladeira que combina praticidade e eficiência com o seu estilo!</p>
+              
+                
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/Meu site/img,micro-ondas/forno_microondas_consul_cms46ab_32_litros_com_menu_facil_na_cor_branco_1029_1_fa17b6fbc5d6032ece79ce606f37d0c3.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Micro-ondas</h5>
+              <p class="card-text">Conheça tanbém nossa linha de micro-ondas, com opções que vão desde os modelos básicos aos mais avançados, perfeitos para aquecer, descongelar e preparar receitas de forma rápida e eficiente. Com design moderno e tamanhos variados, eles se encaixam em qualquer cozinha e facilitam o dia a dia
+
+                <br><p class="fw-bolder">Principais características:</p >
+                
+                  <br> Potência e Variedade de Programas :
+                  <br>Função Grill 
+                  <br> Painel Touch e Display Digital : Co
+                  <br> Eficiência e Economia 
+                  <br> Design Compacto e Elegante: Aca
+                  <br>Ofertas Especiais e Frete Grátis.
+                
+                  <br> Dê mais praticidade à sua rotina!</p>
+                  
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="/Meu site/img.fogão/istockphoto-525125681-1024x1024.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Fornos</h5>
+              <p class="card-text">Conheça nossa linha de fogões, projetada para oferecer praticidade e eficiência em suas receitas diárias. Com modelos que vão desde os tradicionais até os mais modernos, tem
+
+               <br> <p class="fw-bolder">Principais características:</p >
+                
+                <br>Vários Tipos de Queimadores:Modelos com
+                <br> Forno Espelhado e Autolimpante: Mante
+                <br>Design Moderno e Funcional:Acabamentos e
+                <br> Eficiência Energética: Fogões
+                <br> Controles Intuitivos: P
+                <br>Promoções Exclusivas : Frete g
+                
+                <br>Transforme sua experiência na cozinha!</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+<hr>
+      <div class="col-11 m-auto">
+        <h2 class="text-center">Obrigado por visitar nosso site</h2>
+        <p class="text-center">Agradecemos profundamente sua visitar ao nosso site da Harmonia do lar. É um prazer fazer parte do seu caminho para um lar mais moderno, funcional e confortável. Cada produto que oferecemos é cuidadosamente selecionado para garantir qualidade, durabilidade e a melhor experiência possível para nossos clientes, como você. Para nós, o atendimento não termina com a compra. Nossa equipe está sempre à disposição para orientá-lo(a) com dicas, suporte e quaisquer dúvidas que possam surgir.
+
+          Aqui, consideramos que cada eletrodoméstico adquirido é um passo importante para facilitar o seu dia a dia, trazendo mais praticidade e momentos de felicidade em família. Esperamos ter proporcionado uma experiência positiva e que nossos produtos façam uma diferença real em sua casa.
+          
+           Conte sempre conosco e saiba que a sua satisfação é o nosso objetivo maior. Volte quando quiser, seja para conhecer novidades, buscar inspirações ou simplesmente tirar dúvidas. Nossa casa é sua casa, e estaremos prontos para atendê-lo(a) com o mesmo carinho e dedicação.
+          
+           Até breve, e que você aproveite ao máximo cada novo recurso e conforto que nossos produtos podem oferecer!"
+            </p>
+      </div>
+      <hr>
+<div id="Contato" class="col-11 m-auto">
+    <h2 class="text-center">Contato</h2>
+    <div class="m-auto" style="width: 1550px;">
+        <a href="http://">
+           <br> <i class="fa-brands fa-whatsapp" style="font-size: 40px; color: black"><p><p style="font-size: 20px;">(00)12345-6789</p></i>
+           <br> <i class="fa-brands fa-instagram" style="font-size: 40px; color:black"><p style="font-size: 20px;">@casa_harmonioza</p></i>
+           <br> <i class="fa-solid fa-at " style="font-size: 40px; color:black"><br><p style="font-size: 20px;">casaharmoniosa@gmail.com</p></i>
+        </a>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</div>
+<!--footer-->
+<footer style="background-color: #333;" class="font-small blue p-5">
+    <div class="text-center">
+        <a href="/">o 2024 copyright: código front and</a>
+    </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
